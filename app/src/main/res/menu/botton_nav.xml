@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-outo"
+    xmlns:app1="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_name"
+        android:title="Home"
+        app1:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/about_me"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_me"
+        android:title="About Me"
+        app1:showAsAction="ifRoom"/>
+
+
+</menu>
